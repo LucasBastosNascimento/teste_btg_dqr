@@ -1,0 +1,51 @@
+Teste Técnico – Arquitetura de Solução
+
+Projete, em nível de arquitetura (fluxograma ou algum diagrama de sua escolha), um fluxo para solicitação de cartão de crédito, no qual o usuário possa escolher benefícios durante a jornada.
+
+Existem critérios de elegibilidade tanto para a oferta do cartão quanto para a escolha dos benefícios.
+
+Temos 3 ofertas diferentes de cartão:
+
+Oferta A: renda acima de R$ 1.000
+
+Oferta B: renda acima de R$ 15.000 e investimentos maiores que R$ 5.000
+
+Oferta C: renda acima de R$ 50.000 e conta corrente ativa há mais de 2 anos
+
+Temos 4 possibilidades de benefícios:
+
+Critérios de elegibilidade:
+
+Cashback: caso escolha pontos, não será possível ter cashback
+
+Seguro viagem: disponível apenas para oferta C
+
+Sala VIP: disponível apenas para as ofertas B e C
+
+Pontos: caso escolha cashback, não será possível ter pontos
+
+Resultado esperado:
+
+Ao final da jornada, o cliente deve saber:
+
+O status da proposta
+
+Se o cartão foi criado ou não
+
+Quais benefícios foram ativados
+
+Requisitos funcionais mínimos e premissas:
+
+Receber proposta com dados pessoais, tipo de oferta e seleção de benefícios
+
+Validar elegibilidade
+
+Criar conta cartão (a conta corrente já existe)
+
+Ativar benefícios elegíveis
+
+Comunicar status ao cliente
+
+Registrar eventos e histórico do processo
+
+Tratar dados sensíveis com cuidado
